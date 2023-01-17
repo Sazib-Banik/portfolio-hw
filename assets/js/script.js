@@ -61,8 +61,18 @@ contactForm.addEventListener("submit", function (e) {
             templateParams,
             "xWge5c0RcxQsvGhf4"
           );
+          const inputs = document.querySelectorAll(
+            "#name, #email, #subject, #message"
+          );
+
+          inputs.forEach((input) => {
+            input.value = "";
+          });
           setErrorValue.style.color = "green";
           setErrorValue.innerText = "Successfully Sent Your Message.";
+          setTimeout(function () {
+            setErrorValue.style.display = "none";
+          }, 1000);
         } else {
           setErrorValue.innerText = "Please Enter Your Message.";
         }
