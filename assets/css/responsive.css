@@ -39,6 +39,15 @@
   html {
     font-size: 50%;
   }
+  body {
+    font-size: 2.1rem;
+  }
+  .common_btn {
+    font-size: 2.1rem;
+  }
+  .common_heading p {
+    font-size: 2.1rem;
+  }
   #hero_part {
     min-height: calc(70vh - 8rem);
     display: flex;
@@ -51,10 +60,21 @@
     margin-top: 3rem;
     min-height: 210px;
   }
+  .top_left span a,
+  .contact_form h3,
+  .contact_details h3 {
+    font-size: 2.1rem;
+  }
 }
 @media (max-width: 575.98px) {
   html {
     font-size: 45%;
+  }
+  body {
+    font-size: 2.3rem;
+  }
+  .common_btn {
+    font-size: 2.3rem;
   }
   .hero_content {
     padding-top: 5rem;
@@ -62,6 +82,9 @@
   }
   .hero_img {
     padding-top: 2rem;
+  }
+  .common_heading p {
+    font-size: 2.3rem;
   }
   .about_right {
     text-align: center;
@@ -73,6 +96,7 @@
   }
   .about_right p {
     text-align: justify;
+    font-size: 2.3rem;
   }
   .about_left {
     text-align: center;
@@ -82,5 +106,10 @@
   }
   .contact_details {
     padding-top: 0;
+  }
+  .top_left span a,
+  .contact_form h3,
+  .contact_details h3 {
+    font-size: 2.3rem;
   }
 }
